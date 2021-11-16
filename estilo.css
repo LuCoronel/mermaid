@@ -1,0 +1,208 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+/* header*/
+nav a img{
+  position: absolute;
+  padding: 4px;
+}
+nav{
+  width: 100%;
+  height: 6rem;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px;
+}
+nav ul a{
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+nav li a:hover{
+  font-weight: bold;
+}
+/* menu-header*/
+
+/* section gif home */
+
+.gifHome{
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+.aparecer{
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+      opacity: 0;
+      }
+  50% {
+      opacity: 1;
+      }
+  100% {
+    opacity: 0;
+      }
+}
+/* section gif home*/
+
+/* section 2*/
+h2{
+  text-align: center;
+  color: #75c8dc;
+  font-size: 33px;
+  font-family: "Montserrat", 300;
+  padding: 20px;
+}
+p{
+  color: #c6aad1;
+  text-align: center;
+  text-align: justify;
+}
+footer{
+  padding: 30px 20px 50px 50px;
+  border-top:0.05px solid #c6aad1;
+}
+footer div a{
+  text-decoration: none;
+  color: #c6aad1;
+  padding: 5px;
+}
+.footer1{
+  margin: 10px 20px;
+  display: inline-block;
+}
+.footer2{
+  margin: 10px 150px;
+  display: inline-block;
+  font-size: 16px;
+  align-content: left;
+}
+.registro{
+  padding: 20px;
+  font-size: 11;
+  text-align: center;
+}
+.formulario1{
+  margin-top: 10px;
+}
+.destaqueRosa {
+  color: #c78ebe;
+}
+.destaqueCeleste {
+  color: #75c8dc;
+}
+.logosRedes img{
+  width: 1.3rem;
+  padding: 1px;
+}
+footer div form button{
+  padding: 8px;
+  background-color: #9fe1f2;
+  font-family: "Montserrat", 300;
+  color: #351b31;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #3d8a9d;
+}
+footer div form input{
+  padding: 8px;
+  font-family: "Montserrat", 300;
+  width: 230px;
+  border-color: #3d8a9d;
+  border-width: 1px;
+  border-radius: 2px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 180px;
+  gap: 5px;
+  justify-items: center;
+  padding-right: 180px;
+  padding-bottom: 20px;
+}
+.productoHover{
+  opacity: .5;
+  transition: all 1s ease;
+}
+.productoHover:hover{
+  opacity: 1;
+}
+.productoNombre,
+.productoPrecio{
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  color: #462040;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+#main{
+	display: flex;
+	margin-top: 20px;
+  margin-right: 10px;
+}
+.article{
+	background-image: url(Media/peces3.png);
+  margin-bottom: 5px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 23px;
+  flex:5;
+	padding: 5rem;
+  color: white;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.carrito{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  justify-items: center;
+}
+div form button{
+  padding: 8px;
+  background-color: #9fe1f2;
+  font-family: "Montserrat", 300;
+  color: #351b31;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #3d8a9d;
+}
+.texto{
+  width: 98%;
+  height: 300px;
+  background: #4C2D69;
+  margin-left: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-items: center;
+}
+form input{
+  padding: 8px;
+  font-family: "Montserrat", 300;
+  width: 230px;
+  border-color: #3d8a9d;
+  border-width: 1px;
+  border-radius: 2px;
+}
+h3{
+  padding: 10px;
+}
